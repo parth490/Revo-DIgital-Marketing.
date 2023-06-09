@@ -1,0 +1,115 @@
+.process {
+    margin-top: 200px;
+    background-color: #f3f7f8;
+    width: 100%;
+    position: relative;
+
+    .curve-cls {
+        top: -300px;
+        position: absolute;
+        width: 100%;
+        height: 300px;
+
+        svg {
+            position: absolute;
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    .title {
+        margin-top: 100px;
+        text-align: center;
+
+        .heading {
+            background-color: #e9eef4;
+            width: 180px;
+            padding: 8px 8px;
+            text-align: center;
+            border-radius: 50px;
+            display: inline-block;
+
+            span {
+                font-weight: 500;
+                color: #1a2860;
+                text-transform: uppercase;
+                letter-spacing: 1.8px;
+                font-size: 14px;
+            }
+        }
+
+        .head {
+            margin-top: 10px;
+            font-size: 40px;
+            font-weight: 800;
+            background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .icon {
+        align-items: center;
+        position: relative;
+        height: 100px;
+        width: 100px;
+        background-color: #ffffff;
+        font-size: 40px;
+        color: #1a2860;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        margin-top: 60px;
+        padding: 20px;
+
+        &::before {
+            content: '01';
+            position: absolute;
+            font-size: 22px;
+            font-weight: 600;
+            top: -10px;
+            left: -8px;
+            color: var(--white-color);
+            background-color: rgb(88, 67, 188);
+            border-radius: 50%;
+            padding: 5px 8px;
+            border: solid 4px #b8b3d1;
+        }
+
+    }
+    h6 {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--text-color-700);
+        text-align: center;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 15px;
+        color: #616075;
+        line-height: var(--lh);
+        text-align: center;
+        margin-top: 10px;
+    }
+    .container{
+        .row{
+            .w-4:nth-child(2){
+                .icon{
+                    &::before{
+                        position: absolute;
+                        content:'02';
+                    }
+                }
+            }
+            .w-4:nth-child(3){
+                .icon{
+                    &::before{
+                        position: absolute;
+                        content:'03';
+                    }
+                }
+            }
+        }
+    }
+}

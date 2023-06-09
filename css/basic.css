@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #5843bc;
+  --primary-rgb: 88, 67, 188;
+  --bg-color: #f3f7f8;
+  --bg-color-200: #E9EEF4;
+  --gradient-color: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+  --text-color-300: #ccc;
+  --text-color-700: #1a2860;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #616075;
+  --font-stack: Noto Sans;
+  --fs:16px;
+  --lh:1.5;
+  --fw:400;
+  --gutter:15px;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=basic.css.map */

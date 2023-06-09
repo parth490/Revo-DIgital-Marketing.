@@ -1,0 +1,116 @@
+.projects {
+    background-color: #f3f7f8;
+    width: 100%;
+    position: relative;
+    height: 1400px;
+
+    .curve-cls {
+        top: 100%;
+        position: absolute;
+        width: 100%;
+        height: 300px;
+
+        svg {
+            position: absolute;
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #1a2860;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    p {
+        font-size: 15px;
+        color: #616075;
+        line-height: var(--lh);
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 70px;
+    }
+
+    .project-title {
+        margin-top: 100px;
+        text-align: left;
+
+        .heading {
+            background-color: #e9eef4;
+            width: 180px;
+            padding: 8px 8px;
+            text-align: center;
+            border-radius: 50px;
+            display: inline-block;
+
+            span {
+                font-weight: 500;
+                color: #1a2860;
+                text-transform: uppercase;
+                letter-spacing: 1.8px;
+                font-size: 14px;
+            }
+        }
+
+        .head {
+            margin-top: 10px;
+            font-size: 40px;
+            font-weight: 800;
+            background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 100px;
+        }
+    }
+
+    .projcet-filter {
+        margin-top: 100px;
+        padding: 11px 15px;
+        border: 2px solid #eee;
+        border-radius: 30px;
+        display: inline-block;
+
+        span {
+            font-weight: 500;
+            font-size: 13px;
+            margin: 0 20px;
+            cursor: pointer;
+            position: relative;
+
+        }
+    }
+
+    .pr {
+        padding: 0 20px;
+        position: relative;
+        .img {
+            border-radius: 10px;
+            overflow: hidden;
+            transform: scale(1);
+            transition: all ease 0.3s;
+        }
+        &:hover img{
+            transform: scale(0.9);
+                transition: all ease 0.3s;
+        }
+    }
+    .shape-2{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        height: 300px;
+        bottom: -100px;
+        svg{
+            position: absolute;
+            width: 100%;
+            height: 200px;
+        }
+    }
+
+    .project-5 {
+        margin-top: -160px;
+    }
+}

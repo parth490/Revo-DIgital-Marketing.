@@ -1,0 +1,120 @@
+.banner {
+    width: 100%;
+    height: 937px;
+    background-image: url(../img/main-banner.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 90;
+
+    #particles-js {
+        position: absolute;
+        width: 60%;
+        height: 100%;
+        z-index: -10;
+    }
+}
+
+.box1 {
+    width: 250px;
+    height: 40px;
+    background-color: #e9eef4;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.banner span {
+    font-weight: 500;
+    color: #1a2860;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #1a2860;
+    margin-top: 20px;
+}
+
+.banner p {
+    font-size: 14px;
+    color: var(--text);
+}
+
+.box {
+    width: 130px;
+    height: 40px;
+    background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+    background-color: #1163b6d0;
+    text-decoration: none;
+    padding: 8px 8px;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.banner a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: var(--font-stack);
+}
+
+/* carsouel */
+.carsouel {
+    .container {
+        border-radius: 15px;
+        padding: 50px 30px;
+        position: relative;
+        background-color: #fff;
+        padding: 50px 30px;
+        box-shadow: 5px 20px 160px 20px #f3f3f3;
+        top: -80px;
+        z-index: 120;
+
+        .customer {
+            /*  position: absolute; */
+            display: flex;
+            background-color: var(--white);
+
+            h2 {
+                color: #061451;
+                font-size: 40px;
+                position: relative;
+            }
+
+            span {
+                position: absolute;
+                font-size: 20px;
+                margin-left: 5px;
+                top: 18px;
+            }
+
+            p {
+                font-size: 15px;
+                padding-left: 28px;
+                padding-top: 8px;
+                color: var(--text);
+                font-weight: 400;
+            }
+
+        }
+        .swiper {
+            
+            .swiper-slide {
+               
+                .item {
+                    display: flex;
+                    img {
+                        max-width: 110px;
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}
